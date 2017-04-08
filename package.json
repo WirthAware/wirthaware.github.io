@@ -2,7 +2,7 @@
   "name": "myapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wirthaware.github.io",
+  "homepage": "https://wirthaware.github.io/build",
   "dependencies": {
     "react": "^15.5.3",
     "react-bootstrap": "^0.30.8",
