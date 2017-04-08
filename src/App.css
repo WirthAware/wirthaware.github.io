@@ -1,0 +1,29 @@
+.App {
+}
+
+.App-logo {
+  height: 50vh;
+  /*border-radius: 50%;*/
+}
+
+.App-header {
+  position: relative;
+  text-align: left;
+  background-color: #558B2F;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.App-header p {
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
