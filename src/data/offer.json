@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Web-Development",
+    "skills": [
+      "ASP.NET",
+      "nodejs",
+      "AngularJS",
+      "ReactJS",
+      "webpack",
+      "npm"
+    ],
+    "description": "dsakldasldsaldk"
+  },
+  {
+    "title": "Backend-Development",
+    "skills": [
+      ".net",
+      "nodejs"
+
+    ],
+    "description": "dsakldasldsaldk"
+  },
+  {
+    "title": "Mobile-Development",
+    "skills": [
+      "Ionic",
+      "React Native",
+      "Xamarin"
+    ],
+    "description": "dsakldasldsaldk"
+  }
+]
