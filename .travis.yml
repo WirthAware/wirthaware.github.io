@@ -5,9 +5,9 @@ node_js:
 install:
   - yarn
 script:
-  - yarn build
+  - yarn deploy
 branches:
   only:
-    - master
+    - develop
 cache:
   yarn: true
