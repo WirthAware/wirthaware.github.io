@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Row, Col, Collapse } from 'react-bootstrap';
+import { Col, Collapse } from 'react-bootstrap';
 
 const ProjectHeadline = styled.h6`
 `;

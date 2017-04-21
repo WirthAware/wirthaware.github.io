@@ -1,8 +1,6 @@
 import  React from 'react';
 import styled from 'styled-components';
 
-import email from '../images/email.svg';
-
 const Footer = styled.footer`
   background-color: mediumseagreen;
   text-align: center;

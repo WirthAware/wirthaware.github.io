@@ -1,8 +1,4 @@
-import React from 'react';
 import styled from 'styled-components';
-
-const primary = 'mediumseagreen';
-const secondary = 'palevioletred';
 
 const Button = styled.button`
   background: ${props => props.primary ? 'mediumseagreen' : 'white'};
