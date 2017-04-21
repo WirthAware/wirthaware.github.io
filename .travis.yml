@@ -5,9 +5,15 @@ node_js:
 install:
   - yarn
 script:
-  - yarn deploy
+  - yarn build
 branches:
   only:
     - develop
 cache:
   yarn: true
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
