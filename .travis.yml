@@ -15,5 +15,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  on:
-    branch: master
+  target_branch: master
+  email: deploy@travis-ci.org
+  name: Deployment Bot
