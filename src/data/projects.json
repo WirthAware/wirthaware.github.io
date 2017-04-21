@@ -1,0 +1,33 @@
+{
+  "blitzbringer": {
+    "title": "blitzbringer",
+    "description": "Unterstützung bei der Entwicklung der instant local delivery App für Sofortlieferungen egal wann und egal wohin.",
+    "tags": [
+      "same day delivery",
+      "Ionic",
+      "AngularJS",
+      "nodejs",
+      "NoSQL / MongoDB",
+      "Android",
+      "RxJS",
+      "Lean Startup",
+      "AWS (DynamoDB, Docker)"
+
+    ]
+  },
+  "faktoora": {
+    "title": "FinTech",
+    "description": "Für ein FinTech aufbau einer Componentenbasierenden mobile-First responsive Web-Application.",
+    "tags": [
+      "ReactJS",
+      "Redux",
+      "Bootstrap v4",
+      "Docker",
+      "nodejs",
+      "Redis",
+      "Ranger",
+      "GitLab",
+      "CI, CD"
+    ]
+  }
+}

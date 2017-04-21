@@ -8,12 +8,16 @@ import Avatar from './Avatar';
 
 import me from '../images/me.svg';
 
+const Name = styled.h1`
+  font-family: Indie Flower;
+`;
+
 const Cover = () => (
   <Grid>
     <Row>
       <Col md={4}>
         <CoverText>Hello, my name is</CoverText>
-        <h2>Stephan  Wirth</h2>
+        <Name>Stephan  Wirth</Name>
         <CoverText>
           {`I'm Full-Stack Cross-Platform Developer`}
         </CoverText>

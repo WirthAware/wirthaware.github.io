@@ -9,8 +9,8 @@ const OfferBox = styled.div`
   padding: 2em;
 `;
 
-const Skill = styled.span`
-  padding-right: 3px;
+const Skill = styled.li`
+
 `;
 
 const OfferItem = (props) => {
@@ -22,15 +22,15 @@ const OfferItem = (props) => {
   return (
     <Well>
       <h3 style={{ 'word-wrap': 'break-word' }}>{title}</h3>
-      <div>
+      <ul>
       {
         skills.map((skill, index) => (
-          <Skill>
-            <Label key={`skill-${index}`}>{skill}</Label>
+          <Skill key={skill}>
+            {skill}
           </Skill>
         ))
       }
-      </div>
+      </ul>
       <div>
         {description}
       </div>
@@ -44,7 +44,7 @@ const Offer = ({
 }) => (
   <Section>
     <Grid>
-      <h3>What i do ...</h3>
+      <h3>Expertice</h3>
       <Row>
       {
         offers.map((offer, index) => (

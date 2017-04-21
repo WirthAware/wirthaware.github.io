@@ -2,26 +2,32 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Navigation from './components/Navigation';
 import Cover from './components/Cover';
 
-import Offer from './components/Offer';
-import ValueProporsition from './components/ValueProporsition';
-import Projects from './components/Projects';
+import Main from './components/Main';
 
 import Footer from './components/Footer';
-import Section from './components/Section';
 
-import offer from './data/offer.json';
+import { injectGlobal } from 'styled-components';
+injectGlobal`
+body {
+  font-family: 'Indie Flower';
+}
+`;
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* <Navigation /> */}
+
         <Cover />
 
+        <Main />
+        {/* <ValueProporsition />
         <Offer offers={offer} />
-        <ValueProporsition />
-        <Projects />
+        <Projects /> */}
 
         <Footer />
       </div>

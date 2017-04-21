@@ -1,55 +1,78 @@
-import  React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import Section from './Section';
-import Container from './Container';
+import ValueHeader from './ValueHeader';
+import ValueIcon from '../styled/ValueIcon';
+import ValueExpertice from './ValueExpertice';
+import Projects from './Projects';
 
-const Title = styled.div`
-  text-align: center;
-  color: red;
-`;
+import projects from '../data/projects.json';
+
+const ArrowIconDown = () => (
+  <ValueIcon>
+    <i className="fa fa-3x fa-angle-double-down"></i>
+  </ValueIcon>
+);
 
 const Main = () => (
   <Section>
-  <Grid>
-    <Row>
-      <Col>
-        <Title>
-          <h1>
-            What i do ...
-          </h1>
-        </Title>
-      </Col>
-    </Row>
-    <Row>
-      <Col md={4}>
-        <div>
-          <i className="fa fa-5x fa-terminal" aria-hidden="true" />
-        </div>
-        <div>
-          Web-Developer
-        </div>
-      </Col>
-      <Col md={4}>
-      <div>
-        <i className="fa fa-5x fa-database" aria-hidden="true" />
-      </div>
-        <div>
-          Backend-Developer
-        </div>
-      </Col>
-      <Col md={4}>
-        <div>
-          <i className="fa fa-5x fa-mobile" aria-hidden="true" />
-        </div>
-        <div>
-          Mobile-Developer
-        </div>
-      </Col>
-    </Row>
-  </Grid>
+    <Grid>
+      <Row>
+        <Col md={4}>
+          <ValueHeader
+            title="Softwaredeveloper"
+            icon="code"
+            experiance={10}
+          />
+
+          <ArrowIconDown />
+
+          <ValueExpertice
+            text="C/C++, .net, WPF, JavaScript, CANbus, Reactive Extensions"
+          />
+
+          <ArrowIconDown />
+
+          <Projects projects={[
+            projects.blitzbringer,
+            projects.faktoora
+          ]} />
+        </Col>
+        <Col md={4}>
+          <ValueHeader
+            title="Software-Architect"
+            icon="cubes"
+            experiance={5}
+          />
+
+          <ArrowIconDown />
+
+          <ValueExpertice
+            text="Coding the Architecture, IoT, Cloud, Enterprise, MVC, MVVM, Event-Driven, DDD, Unidirectional Dataflow"
+          />
+
+          <ArrowIconDown />
+        </Col>
+        <Col md={4}>
+          <ValueHeader
+            title="Consultant"
+            icon="id-badge"
+            experiance={3}
+          />
+
+          <ArrowIconDown />
+
+          <ValueExpertice
+            text="Teamleader Frontend Development"
+          />
+
+          <ArrowIconDown />
+        </Col>
+      </Row>
+    </Grid>
   </Section>
 );
 

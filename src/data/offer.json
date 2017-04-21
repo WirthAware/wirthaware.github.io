@@ -2,12 +2,14 @@
   {
     "title": "Web-Development",
     "skills": [
-      "ASP.NET",
-      "nodejs",
-      "AngularJS",
       "ReactJS",
+      "AngularJS 1.X",
+      "Polymer",
+      "jQuery",
+      "ASP.NET",
       "webpack",
-      "npm"
+      "npm",
+      "Grunt, Gulp"
     ],
     "description": "dsakldasldsaldk"
   },
