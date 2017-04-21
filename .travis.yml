@@ -14,7 +14,9 @@ cache:
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
+  github_token: ceb5737c522354ac195756bec3b979a6848f06b0
   target_branch: master
   email: deploy@travis-ci.org
   name: Deployment Bot
+  on:
+    branch: master
