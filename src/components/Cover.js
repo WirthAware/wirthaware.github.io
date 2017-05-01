@@ -19,7 +19,7 @@ const Cover = () => (
         <CoverText>Hello, my name is</CoverText>
         <Name>Stephan  Wirth</Name>
         <CoverText>
-          {`I'm Full-Stack Cross-Platform Developer`}
+          {`I'm Full-Stack Cross-Platform Engineer`}
         </CoverText>
         <CoverText>{'located in Germany'}</CoverText>
         <Button primary>Hire me!</Button>

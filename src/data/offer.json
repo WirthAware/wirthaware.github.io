@@ -1,33 +1,95 @@
 [
   {
-    "title": "Web-Development",
-    "skills": [
-      "ReactJS",
-      "AngularJS 1.X",
-      "Polymer",
-      "jQuery",
-      "ASP.NET",
-      "webpack",
-      "npm",
-      "Grunt, Gulp"
+    "title": "Softwaredeveloper",
+    "experiance": 10,
+    "icon": "code",
+    "expertice": [
+      {
+        "title": "Frontend",
+        "skills": [
+          "WPF",
+          "JavaScript, Typescript",
+          "ReactJS",
+          "Redux",
+          "RxJS",
+          "AngularJS",
+          "Polymer",
+          "jQuery",
+          "ASP.NET MVC",
+          "Bootstrap",
+          "D3",
+          "Selenium",
+          "HTML", "CSS", "SASS / LESS", "CSS in JS",
+          "Grunt, Gulp, webpack",
+          "Bower, npm, yarn"
+        ]
+      },
+      {
+        "title": "Backend",
+        "skills": [
+          "C/C++",
+          ".NET",
+          "nodejs",
+          "REST",
+          "GraphQL",
+          "Entity Framework",
+          "WebApi",
+          "Rx.NET",
+          "XSockets.NET",
+          "SQL", "NoSQL",
+          "CANbus"
+        ]
+      },
+      {
+        "title": "Mobile",
+        "skills": [
+          "Progressive Web Apps",
+          "Ionic", "Cordova",
+          "React Native",
+          "Xamarin"
+        ]
+      }
     ],
     "description": "dsakldasldsaldk"
   },
   {
-    "title": "Backend-Development",
-    "skills": [
-      ".net",
-      "nodejs"
-
+    "title": "Software-Architect",
+    "experiance": 5,
+    "icon": "cubes",
+    "expertice": [
+      {
+        "title": "",
+        "skills": [
+          "Coding the Architecture",
+          "IoT", "Cloud", "Enterprise",
+          "Git", "Github", "Gitlab", "SVN", "TFS", "Jira",
+          "UML", "OOP", "OOD",
+          "Functional Programming", "Reactive Programming",
+          "Design Patterns",
+          "CI / CD",  "TeamCity", "Travis CI", "Jenkins",
+          "Event-Driven", "DDD",
+          "MVC", "MVVM", "Unidirectional Dataflow",
+          "Refactoring", "Clean Code",
+          "TDD / BDD"
+        ]
+      }
     ],
     "description": "dsakldasldsaldk"
   },
   {
-    "title": "Mobile-Development",
-    "skills": [
-      "Ionic",
-      "React Native",
-      "Xamarin"
+    "title": "Consultant",
+    "experiance": 5,
+    "icon": "id-badge",
+    "expertice": [
+      {
+        "title": "",
+        "skills": [
+          "Teamleader Frontend Development",
+          "Coaching", "Training", "Mentoring", "Leadership",
+          "Team Enabling",
+          "SCRUM", "Lean Startup", "Kanban"
+        ]
+      }
     ],
     "description": "dsakldasldsaldk"
   }

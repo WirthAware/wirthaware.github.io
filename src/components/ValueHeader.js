@@ -1,22 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ValueTitle = styled.h3``;
+import CenteredText from '../styled/CenteredText';
 
-const ValueHeaderWrapper = styled.div`
-  text-align: center;
-`;
+const ValueTitle = styled.h3``;
 
 const ValueHeader = ({
   title,
   icon,
   experiance,
 }) => (
-  <ValueHeaderWrapper>
+  <CenteredText>
     <ValueTitle>{title}</ValueTitle>
     <i className={`fa fa-3x fa-${icon}`} />
     <div>{`${experiance} years`}</div>
-  </ValueHeaderWrapper>
+  </CenteredText>
 );
 
 export default ValueHeader;
