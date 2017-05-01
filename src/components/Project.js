@@ -3,16 +3,17 @@ import styled from 'styled-components';
 import { Col, Collapse } from 'react-bootstrap';
 
 const ProjectHeadline = styled.h6`
+  font-weight: bold;
 `;
 
 const ProjectDescription = styled.div`
 `;
-const ProjectShowMore = styled.button`
+const ProjectShowMore = styled.div`
   text-align: center;
   color: gray;
 
-  &:hover: {
-    background-color: green;
+  &:hover {
+    color: green;
   }
 `;
 
@@ -36,6 +37,12 @@ class Project extends Component {
       <Col>
         <ProjectHeadline>{title}</ProjectHeadline>
         <ProjectDescription>{description}</ProjectDescription>
+        <div>
+          <strong>Roles:</strong>
+          <div>
+            Software-Architect
+          </div>
+        </div>
         <Collapse in={this.state.isOpen}>
           <ul>
             {
@@ -43,8 +50,8 @@ class Project extends Component {
             }
           </ul>
         </Collapse>
-        <ProjectShowMore >
-          <i className="fa fa-2x fa-angle-down" />
+        <ProjectShowMore onClick={() => this.setState(toggle)}>
+          <i className={`fa fa-2x fa-angle-${this.state.isOpen ? 'up' : 'down'}`} />
         </ProjectShowMore>
       </Col>
     );

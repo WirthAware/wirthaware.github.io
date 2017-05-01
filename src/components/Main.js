@@ -38,10 +38,10 @@ const Main = () => (
 
               <ArrowIconDown />
 
-              {/* <Projects projects={[
+              <Projects projects={[
                 projects.blitzbringer,
                 projects.faktoora
-              ]} /> */}
+              ]} />
             </Col>
 
           ))

@@ -13,7 +13,7 @@ const ValueHeader = ({
   <CenteredText>
     <ValueTitle>{title}</ValueTitle>
     <i className={`fa fa-3x fa-${icon}`} />
-    <div>{`${experiance} years`}</div>
+    <div>{`~${experiance} years experiance`}</div>
   </CenteredText>
 );
 

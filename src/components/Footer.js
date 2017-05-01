@@ -23,6 +23,9 @@ const IconList = styled.ul`
   justify-content: space-between;
   width: 100%;
   max-width: 352px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 `;
 const IconListItem = styled.li``;
 
