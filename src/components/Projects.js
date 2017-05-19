@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import styled from 'styled-components';
 
 import Project from './Project';
@@ -20,10 +21,10 @@ const Projects  = ({
     {
       projects.map(
         (project, index) =>
-        <div>
-          <Project key={project.title} {...project} />
+        <Col md={6} key={project.title}>
+          <Project {...project} />
           <Seperator  />
-        </div>
+        </Col>
       )
     }
   </div>

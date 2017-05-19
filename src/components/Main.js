@@ -23,7 +23,7 @@ const Main = () => (
       <Row>
         {
           offer.map(item => (
-            <Col md={4}>
+            <Col key={item.title} md={4}>
               <ValueHeader
                 title={item.title}
                 icon={item.icon}
@@ -36,16 +36,23 @@ const Main = () => (
                 expertice={item.expertice}
               />
 
-              <ArrowIconDown />
+              {/* <ArrowIconDown /> */}
 
-              <Projects projects={[
+              {/* <Projects projects={[
                 projects.blitzbringer,
                 projects.faktoora
-              ]} />
+              ]} /> */}
             </Col>
 
           ))
         }
+      </Row>
+
+      <Row>
+        <Projects projects={[
+          projects.blitzbringer,
+          projects.faktoora,
+        ]} />
       </Row>
     </Grid>
   </Section>

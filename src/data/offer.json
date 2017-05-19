@@ -1,6 +1,6 @@
 [
   {
-    "title": "Softwaredeveloper",
+    "title": "Software-Developer",
     "experiance": 10,
     "icon": "code",
     "expertice": [
@@ -84,7 +84,7 @@
       {
         "title": "",
         "skills": [
-          "Teamleader Frontend Development",
+          "Teamleader", "Techlead",
           "Coaching", "Training", "Mentoring", "Leadership",
           "Team Enabling",
           "SCRUM", "Lean Startup", "Kanban"

@@ -7,7 +7,7 @@ const ValueExpertice = ({
   <CenteredText>
     {
       expertice.map(item => (
-        <div>
+        <div key={item.title}>
           <strong>{item.title}</strong>
           <div>
             {item.skills.join(', ')}
